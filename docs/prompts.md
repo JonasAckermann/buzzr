@@ -137,7 +137,6 @@ library(mypackage)
 
 # Lint an R file and get positive comments
 lint_and_praise("path/to/your_script.R")
-To use the linting function, run the 
 ``` 
 
 **Example**
