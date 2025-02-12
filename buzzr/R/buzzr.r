@@ -5,14 +5,18 @@
 #' @export
 lint_and_praise <- function(file) {
   library(lintr)
+  # I do not know where to put this
+  #install.packages("beepr")
+  library(beepr)
   
   lintr_output <- lint(file)
   
   if (length(lintr_output) == 0) {
-    message("Great job! No linting issues found.")
+    beep()
+    message("*EXTREMELY LOUD CORRECT BUZZER*")
   } else {
     for (issue in lintr_output) {
-      message("Keep up the good work! Consider improving: ", issue$message)
+      message("You horse's ass! Don't do: ", issue$message)
     }
   }
 }

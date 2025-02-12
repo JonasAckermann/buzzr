@@ -2,8 +2,9 @@ Package: buzzr
 Type: Package
 Title: A Package to Reward Software Best Practices Using lintr
 Version: 0.1.0
-Author: Jonas
-Maintainer: Jonas
+Author: jonas ackermann <jonas.p.ackermann@gmail.com>
+Maintainer: jonas ackermann <jonas.p.ackermann@gmail.com>
 Description: This package uses lintr to track software best practices and outputs positive comments for each best practice applied.
 License: MIT
 Imports: lintr
+RoxygenNote: 7.3.2
